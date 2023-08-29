@@ -1,6 +1,8 @@
 import { Image } from '@nextui-org/react';
 import useDarkMode from 'use-dark-mode';
 
+import portadaImg from '../../assets/images/portada.webp';
+
 const Intro = () => {
   const darkMode = useDarkMode();
   return (
@@ -29,7 +31,7 @@ const Intro = () => {
             className={`${darkMode.value ? 'grayscale' : ''}`}
             width={600}
             height={400}
-            src='/src/assets/images/portada.webp'
+            src={portadaImg}
           />
         </div>
       </div>

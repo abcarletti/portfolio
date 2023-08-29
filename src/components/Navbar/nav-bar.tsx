@@ -8,6 +8,8 @@ import {
 import DarkModeToggle from '../DarkMode/dark-mode';
 import useDarkMode from 'use-dark-mode';
 
+import avatarImg from '../../assets/images/icono.webp';
+
 const CustomNavBar = () => {
   const darkMode = useDarkMode();
   return (
@@ -31,7 +33,7 @@ const CustomNavBar = () => {
               transform: 'scaleX(-1)',
             }}
             radius='sm'
-            src='/src/assets/images/icono.webp'
+            src={avatarImg}
           />
         </NavbarItem>
       </NavbarContent>

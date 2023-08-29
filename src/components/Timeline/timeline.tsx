@@ -26,7 +26,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 justify-between items-center w-full '>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-amber-100 bg-amber-800 p-2 rounded-full'>
               <BookIcon />
             </div>
@@ -52,8 +52,8 @@ const Timeline = () => {
             </Card>
           </div>
 
-          <div className='mb-8 flex gap-2 md:flex-row-reverse justify-between items-center w-full '>
-            <div className='md:order-1 md:w-5/12'></div>
+          <div className='mb-8 flex gap-2 md:gap-0  md:flex-row-reverse justify-between items-center w-full '>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-amber-100 bg-amber-800 p-2 rounded-full'>
               <BookIcon />
             </div>
@@ -70,7 +70,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 justify-between items-center w-full left-timeline'>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-purple-100 bg-purple-800 p-2 rounded-full'>
               <CodeIcon />
             </div>
@@ -109,7 +109,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 md:flex-row-reverse justify-between items-center w-full left-timeline'>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-emerald-100 bg-emerald-800 p-2 rounded-full'>
               <TrophyIcon />
             </div>
@@ -135,7 +135,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 justify-between items-center w-full left-timeline'>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-purple-100 bg-purple-800 p-2 rounded-full'>
               <CodeIcon />
             </div>
@@ -163,7 +163,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 md:flex-row-reverse justify-between items-center w-full left-timeline'>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-purple-100 bg-purple-800 p-2 rounded-full'>
               <CodeIcon />
             </div>
@@ -199,7 +199,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 justify-between items-center w-full '>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-amber-100 bg-amber-800 p-2 rounded-full'>
               <BookIcon />
             </div>
@@ -225,7 +225,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 md:flex-row-reverse justify-between items-center w-full '>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-amber-100 bg-amber-800 p-2 rounded-full'>
               <BookIcon />
             </div>
@@ -242,7 +242,7 @@ const Timeline = () => {
           </div>
 
           <div className='mb-8 flex gap-2 justify-between items-center w-full left-timeline'>
-            <div className='md:order-1 md:w-5/12'></div>
+            <div className='md:order-1 md:w-5/12 hidden md:block'></div>
             <div className='z-20 flex items-center md:order-1 text-purple-100 bg-purple-800 p-2 rounded-full'>
               <CodeIcon />
             </div>
